@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "nodevpnv3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-zpaq": "^1.0.3",
+    "tuntap2": "^0.9.0",
+    "ws": "^8.11.0"
+  }
+}
