@@ -23,7 +23,7 @@ try {
 }
 
 const ws = new WebSocket(process.env.WSURL, {
-  rejectUnauthorized: true,
+  rejectUnauthorized: false,
 });
 
 ws.on('open', function open() {

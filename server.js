@@ -38,7 +38,7 @@ wss.on('connection', function (c) {
   if (tap) {
     tap.on('data', (buf) => {
       //console.log(`sent: ${buf}`);
-      c.send(compressSync(c, OPTIONS));
+      c.send(compressSync(buf, OPTIONS));
     }
     );
     c.on('message', (buf) => {
